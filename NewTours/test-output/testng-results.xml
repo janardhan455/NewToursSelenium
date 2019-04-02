@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2019-03-31T18:17:07Z" name="Smoke Suite" finished-at="2019-03-31T18:18:15Z" duration-ms="67959">
+    <groups>
+    </groups>
+    <test started-at="2019-03-31T18:17:07Z" name="SmokeTests" finished-at="2019-03-31T18:18:15Z" duration-ms="67959">
+      <class name="tests.VerifySignOff">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:tests.VerifySignOff@1e1a0406]" started-at="2019-03-31T18:17:07Z" name="Setup" finished-at="2019-03-31T18:17:13Z" duration-ms="5357" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="CreateAccount()[pri:0, instance:tests.VerifySignOff@1e1a0406]" started-at="2019-03-31T18:17:13Z" name="CreateAccount" finished-at="2019-03-31T18:17:24Z" duration-ms="11669" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateAccount -->
+        <test-method is-config="true" signature="Capture_Screenshot(org.testng.ITestResult)[pri:0, instance:tests.VerifySignOff@1e1a0406]" started-at="2019-03-31T18:17:24Z" name="Capture_Screenshot" finished-at="2019-03-31T18:17:27Z" duration-ms="2543" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CreateAccount status=SUCCESS method=VerifySignOff.CreateAccount()[pri:0, instance:tests.VerifySignOff@1e1a0406] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Capture_Screenshot -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.VerifySignOff@1e1a0406]" started-at="2019-03-31T18:17:27Z" name="teardown" finished-at="2019-03-31T18:17:28Z" duration-ms="1321" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- tests.VerifySignOff -->
+      <class name="tests.VerifySignIn">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:tests.VerifySignIn@290222c1]" started-at="2019-03-31T18:17:54Z" name="Setup" finished-at="2019-03-31T18:17:58Z" duration-ms="3849" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="CreateAccount()[pri:0, instance:tests.VerifySignIn@290222c1]" started-at="2019-03-31T18:17:58Z" name="CreateAccount" finished-at="2019-03-31T18:18:12Z" duration-ms="13727" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateAccount -->
+        <test-method is-config="true" signature="Capture_Screenshot(org.testng.ITestResult)[pri:0, instance:tests.VerifySignIn@290222c1]" started-at="2019-03-31T18:18:12Z" name="Capture_Screenshot" finished-at="2019-03-31T18:18:14Z" duration-ms="2547" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CreateAccount status=SUCCESS method=VerifySignIn.CreateAccount()[pri:0, instance:tests.VerifySignIn@290222c1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Capture_Screenshot -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.VerifySignIn@290222c1]" started-at="2019-03-31T18:18:14Z" name="teardown" finished-at="2019-03-31T18:18:15Z" duration-ms="938" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- tests.VerifySignIn -->
+      <class name="tests.RegisterNewTours">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:tests.RegisterNewTours@12aba8be]" started-at="2019-03-31T18:17:41Z" name="Setup" finished-at="2019-03-31T18:17:45Z" duration-ms="3716" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="CreateAccount()[pri:0, instance:tests.RegisterNewTours@12aba8be]" started-at="2019-03-31T18:17:45Z" name="CreateAccount" finished-at="2019-03-31T18:17:49Z" duration-ms="4088" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateAccount -->
+        <test-method is-config="true" signature="Capture_Screenshot(org.testng.ITestResult)[pri:0, instance:tests.RegisterNewTours@12aba8be]" started-at="2019-03-31T18:17:49Z" name="Capture_Screenshot" finished-at="2019-03-31T18:17:51Z" duration-ms="2483" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CreateAccount status=SUCCESS method=RegisterNewTours.CreateAccount()[pri:0, instance:tests.RegisterNewTours@12aba8be] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Capture_Screenshot -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.RegisterNewTours@12aba8be]" started-at="2019-03-31T18:17:51Z" name="teardown" finished-at="2019-03-31T18:17:54Z" duration-ms="2935" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- tests.RegisterNewTours -->
+      <class name="tests.VerifyHomepageLinks">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:tests.VerifyHomepageLinks@3cebbb30]" started-at="2019-03-31T18:17:28Z" name="Setup" finished-at="2019-03-31T18:17:32Z" duration-ms="3666" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="VerifyDashBoard()[pri:0, instance:tests.VerifyHomepageLinks@3cebbb30]" started-at="2019-03-31T18:17:32Z" name="VerifyDashBoard" finished-at="2019-03-31T18:17:37Z" duration-ms="5412" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyDashBoard -->
+        <test-method is-config="true" signature="Capture_Screenshot(org.testng.ITestResult)[pri:0, instance:tests.VerifyHomepageLinks@3cebbb30]" started-at="2019-03-31T18:17:37Z" name="Capture_Screenshot" finished-at="2019-03-31T18:17:40Z" duration-ms="2528" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyDashBoard status=SUCCESS method=VerifyHomepageLinks.VerifyDashBoard()[pri:0, instance:tests.VerifyHomepageLinks@3cebbb30] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Capture_Screenshot -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.VerifyHomepageLinks@3cebbb30]" started-at="2019-03-31T18:17:40Z" name="teardown" finished-at="2019-03-31T18:17:41Z" duration-ms="1153" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- tests.VerifyHomepageLinks -->
+    </test> <!-- SmokeTests -->
+  </suite> <!-- Smoke Suite -->
+</testng-results>
